@@ -1,8 +1,10 @@
-# React + Vite
+The goal is to create a web application having list of all Movies/Shows, having the following features -
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. User Login
+2. Users can comment and leave ratings on movies
+3. Basic and Advanced search feature
 
-Currently, two official plugins are available:
+Tools/API used -
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React Vanilla
+2. Api - https://api.tvmaze.com/
