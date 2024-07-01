@@ -1,6 +1,8 @@
 import { Button } from "rsuite";
 
 function App() {
+  const API_URL = import.meta.env.VITE_API_URL;
+  console.log(API_URL);
   return (
     <>
       <Button color="cyan" appearance="primary">
