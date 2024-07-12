@@ -1,16 +1,6 @@
-import { Button } from "rsuite";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import router from "./router";
 
-function App() {
-  const API_URL = import.meta.env.VITE_API_URL;
-  console.log(API_URL);
-  return (
-    <>
-      <Button color="cyan" appearance="primary">
-        Hello
-      </Button>
-      <h1 className="text-red-500">Hi</h1>;
-    </>
-  );
-}
+const App = () => <RouterProvider router={router} />;
 
 export default App;
