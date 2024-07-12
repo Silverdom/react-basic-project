@@ -1,0 +1,26 @@
+header li a {
+    position: relative;
+}
+header li .active:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    bottom: -8px
+}
+
+header li a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -8px;
+    background-color: red;
+}
+header li a:hover:before {
+    width: 100%;
+    transition: all 0.25s ease-out;;
+    
+
+}
