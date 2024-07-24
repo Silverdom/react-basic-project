@@ -1,5 +1,5 @@
 import { baseImageApi } from "./baseapi";
 
-export const getUpcomingMovies = (width, image_url) => {
-  return baseImageApi.get(`/${width}/${image_url}`).then((res) => res.data);
+export const getMovieImage = ({ width = "w185", image_url }) => {
+  return `${import.meta.env.VITE_IMG_API_URL}/${width}/${image_url}`;
 };
